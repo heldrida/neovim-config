@@ -9,8 +9,8 @@ call plug#begin()
 
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
-Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-lua/plenary.nvim'
+Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-telescope/telescope.nvim'
 
 " Themes
@@ -64,6 +64,9 @@ vnoremap <Up> <Nop>
  nnoremap <C-j> <C-w>j
  nnoremap <C-k> <C-w>k
  nnoremap <C-l> <C-w>l
+
+" Config file quick access
+ nnoremap <Leader>ce :e ~/.config/nvim/init.vim<CR>
 
  " new split panes to right and below
 set splitright

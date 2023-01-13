@@ -44,6 +44,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'tomasr/molokai'
 Plug 'Mofiqul/dracula.nvim'
 Plug 'sainnhe/gruvbox-material'
+Plug 'thedenisnikulin/vim-cyberpunk'
 
 " Adds filetype glyphs (icons) to various vim plugins
 Plug 'ryanoasis/vim-devicons'
@@ -51,7 +52,7 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 set background=dark
-colorscheme gruvbox-material
+colorscheme cyberpunk
 
 " NERDTree hotkeys
 nnoremap <C-f> :NERDTreeFocus<CR>

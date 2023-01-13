@@ -227,3 +227,10 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+" show lines
+set number
+
+" Show relative line numbers
+" can also use `set rnu` and `set rnu!!` to toggle
+set relativenumber 
+

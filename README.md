@@ -1,5 +1,14 @@
 # Neovim
 
+## Install
+
+First, install [vim-plug](https://github.com/junegunn/vim-plug)
+
+```sh
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
 ## 🗝 Hotkeys
 
 Edit the configuration file by using one of the following:
